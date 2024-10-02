@@ -44,6 +44,6 @@ export const getAuthStatus = async () => {
   } catch (error) {
     // Log any errors encountered
     console.error("Error in getAuthStatus:", error);
-    return { success: false, error: error.message };
+    return { success: false };
   }
 };
